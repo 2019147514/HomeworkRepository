@@ -1,0 +1,127 @@
+@media screen {
+     * { max-width:1020px; }
+}
+
+h1 { font-family: 'Times New Roman', Georgia, arial; 
+     font-size: 2.5em; 
+     text-align: center; }
+
+.SU { text-align: left;
+      animation-name: sliding;
+      animation-duration: 2s;
+      animation-timing-function: linear; }
+     
+@keyframes sliding {
+     from {
+          margin-left: 100%;
+          width: 300%;
+     }
+     to {
+          margin-left: 0%;
+          width: 100%;
+     }
+}
+
+.bigger {
+     transition: transform 2s;
+}
+
+.bigger:hover {
+     transform: scale(2);
+}
+
+.img_wrap {
+     position: relative;
+     display: inline-block;
+}
+
+.name {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: blue;
+     color: #fff;
+     visibility: hidden;
+     opacity: 0;
+     font-size: 1em;
+}
+
+.img_wrap:hover .name {
+     visibility: visible;
+     opacity: 1;
+}
+
+.navigation {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+}
+
+.flex_box {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     border: solid 2px black;
+     margin: 10px;
+     flex: 25%;
+}
+
+.flex_boxContainer {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+}
+
+.flex_section {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+}
+
+.flex_mainContents {
+     display: flex;
+     flex-direction: column;
+}
+
+.flex_item {
+     margin: 10px;
+}
+
+.here {
+     column-count: 2;
+     column-rule-style: solid;
+}
+
+@media screen and (max-width: 800px) {
+     .navigation { flex-direction: column; flex-wrap: wrap; align-items: center;}
+     .flex_boxContainer {flex-wrap: wrap;}
+     .flex_box {flex: 35%;}
+     .here {column-count: unset; column-rule-style: none;}
+     h2 {text-align: center;}
+}
+
+@media screen and (max-width: 480px) {
+     .flex_boxContainer {flex-direction: column;}
+     .flex_box {flex: auto;}
+}
+
+
+a  { color: black;
+     text-decoration: none; }
+
+hr { height: 3px; border: 0; background-color: black; margin-left: 0; margin-right: 0;}
+
+.redirect { background-color: #d3d3d3; }
+
+.current { font-weight:bold; border-top: 1px solid red; border-bottom: 1px solid red; }
+
+.notification { color: green; }
+
+.mybutton { font-weight: bold; border: thin; padding: 5px; margin: 1px; width: 100px; height: 44px; }
+
+.green { background-color: greenyellow; }
+
+.red { background-color: tomato; }

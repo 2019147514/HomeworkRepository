@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type = "text/css" href="main.css">
+    </head>
+    <body>
+        <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+        <span class="current">회원가입</span>
+        <a class="redirect" href="login.html">로그인</a>
+        <hr>
+        <p><span class = "notification">필수 입력 사항</span></p>
+        <form method = "GET">
+            <p>
+                <label>이름 : 
+                    <input name = "name" type = "text" autocomplte = "on" required placeholder = "이름을 입력하세요." autofocus />
+                </label>
+            </p>
+            <p>
+                <label>생일 : 
+                    <input name = "Birthday" type = "date" required />
+                </label>
+            </p>
+            <p>
+                <label>학년 : 
+                    <input name = "grade" type = "number" min = "1" max = "4" step = "1" value = "1" required />                    
+                </label>
+            </p>
+            <p>
+                <label>휴대폰 번호 : 
+                    <input name = "phone_number" type = "text" autocomplte = "on" placeholder = "(###)####-####" required />
+                </label>
+            </p>
+            <p>
+                <label>유저 아이디 : 
+                    <input name = "userID" type = "text" placeholder = "아이디를 입력하세요." required />
+                </label>
+            </p>
+            <p>
+                <label>비밀번호 : 
+                    <input name = "userID" type = "password" placeholder = "비밀번호를 입력하세요." required />
+                </label>
+            </p>
+            <p>
+                <label>비밀번호 확인 : 
+                    <input name = "userID" type = "password" placeholder = "비밀번호 확인" required />
+                </label>
+            </p><br>
+            <p><span class="notification">선택 입력 사항</span></p>
+            <p>
+                선호하는 프로그래밍 언어 : 
+                <label>Python
+                    <input name = "preferredPL" type = "checkbox">
+                </label>
+                <label>Rust
+                    <input name = "preferredPL" type = "checkbox">
+                </label>
+                <label>C
+                    <input name = "preferredPL" type = "checkbox">
+                </label>
+                <label>C++
+                    <input name = "preferredPL" type = "checkbox">
+                </label>
+                <label>Java
+                    <input name = "preferredPL" type = "checkbox">
+                </label>
+                <label>C#
+                    <input name = "preferredPL" type = "checkbox">
+                </label>
+                <label>Javascript
+                    <input name = "preferredPL" type = "checkbox">
+                </label>
+                <label>SQL
+                    <input name = "preferredPL" type = "checkbox">
+                </label>
+            </p>
+            <p>
+                사이트 접속 경로 : 
+                <label>1. 검색
+                    <input name = "howto" type = "radio" value = "search engine">
+                </label>
+                <label>2. SNS 링크
+                    <input name = "howto" type = "radio" value = "instagram">
+                </label>
+                <label>3. 지인 추천
+                    <input name = "howto" type = "radio" value = "recommend">
+                </label>
+                <label>4. 그 외
+                    <input name = "howto" type = "radio" value = "other">
+                </label>
+            </p>
+            <p>
+                <input class="mybutton green" type = "submit" value = "Signup">
+                <input class="mybutton red" type = "reset" value = "Cancel">
+            </p>
+        </form>
+        <hr>
+    </body>
+</html>
