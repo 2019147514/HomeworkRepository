@@ -1,0 +1,100 @@
+[
+    {
+        "name" : "Python for Data Analysis",
+        "price" : "9.30",
+        "info" : "Python language and libraries for data analysis problems",
+        "image" : "data_py.jpg",
+        "type" : "ML/DL"
+    },
+    {
+        "name" : "Hands-On Machine Learning",
+        "price" : "10.00",
+        "info" : "Tools to implement programs capable of learning from data",
+        "image" : "machinelearning.jpg",
+        "type" : "ML/DL"
+    },
+    {
+        "name" : "Client-Server Web Apps with JavaScript and Java",
+        "price" : "8.00",
+        "info" : "How to build apps that conform to the web's underlying architecture",
+        "image" : "client-server.jpg",
+        "type" : "Web Programming"
+    },
+    {
+        "name" : "Designing Web APIs",
+        "price" : "7.00",
+        "info" : "API design theory and hands-on excersises",
+        "image" : "webapi.jpg",
+        "type" : "Web Programming"
+    },
+    {
+        "name" : "Client-Server Web Apps with JavaScript and Java",
+        "price" : "8.00",
+        "info" : "How to build apps that conform to the web's underlying architecture",
+        "image" : "client-server.jpg",
+        "type" : "Web Programming"
+    },
+    {
+        "name" : "혼자 공부하는 머신러닝+딥러닝",
+        "price" : "13.00",
+        "info" : "머신러닝 입문자를 위한 인공지능 자습서",
+        "image" : "selfML.jpg",
+        "type" : "ML/DL"
+    },
+    {
+        "name" : "Natural Language Processing with PyTorch",
+        "price" : "10.50",
+        "info" : "NLP methods using Pytorch",
+        "image" : "pytorch.jpg",
+        "type" : "ML/DL"
+    },
+    {
+        "name" : "Natural Language Processing with Transformers",
+        "price" : "13.60",
+        "info" : "Transformers and Hugging Face library",
+        "image" : "huggingFace.jpg",
+        "type" : "ML/DL"
+    },
+    {
+        "name" : "SQL 레벨업",
+        "price" : "14.20",
+        "info" : "DB 성능 최적화를 위한 SQL 실전 가이드",
+        "image" : "sqlLevelUp.jpg",
+        "type" : "Database"
+    },
+    {
+        "name" : "이것이 MySQL이다",
+        "price" : "12.80",
+        "info" : "MySQL 설치부터 PHP, 파이썬 연동까지",
+        "image" : "mySQL.jpg",
+        "type" : "Database"
+    },
+    {
+        "name" : "Database Internals",
+        "price" : "9.90",
+        "info" : "A deep-dive into how distributed data systems work",
+        "image" : "dbInternals.jpg",
+        "type" : "Database"
+    },
+    {
+        "name" : "생활코딩! HTML+CSS+자바스크립트",
+        "price" : "9.10",
+        "info" : "프로그래밍 입문자를 위한 HTML/CSS/Javascript",
+        "image" : "saenghwal.jpg",
+        "type" : "Web Programming"
+    },
+    {
+        "name" : "Effective TypeScript",
+        "price" : "7.40",
+        "info" : "62 specific ways to improve your typescript",
+        "image" : "typescript.jpg",
+        "type" : "Web Programming"
+    },
+    {
+        "name" : "Effective Java 3/E",
+        "price" : "17.90",
+        "info" : "Java 언어와 라이브러리의 초창기부터 최신 기능까지",
+        "image" : "effectiveJava.jpg",
+        "type" : "Web Programming"
+    }
+]

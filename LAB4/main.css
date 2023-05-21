@@ -1,0 +1,112 @@
+@media screen {
+     * { max-width:1020px; }
+}
+
+h1 { font-family: 'Times New Roman', Georgia, arial; 
+     font-size: 2.5em; 
+     text-align: center; }
+
+.SU { text-align: left;
+      animation-name: sliding;
+      animation-duration: 2s;
+      animation-timing-function: linear; }
+     
+@keyframes sliding {
+     from {
+          margin-left: 100%;
+          width: 300%;
+     }
+     to {
+          margin-left: 0%;
+          width: 100%;
+     }
+}
+
+
+.navigation {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+}
+
+.flex_item { margin: 10px; }
+
+select, button { font-size: 0.8rem; }
+
+body > div {
+     display: flex;
+}
+
+aside, main { padding: 20px; }
+
+aside {
+     flex: 3;
+     display: flex;
+     flex-flow: column;
+     align-items: stretch;
+     grid-row: 1;
+     border-right: none;
+     border-bottom: 2px solid black;
+}
+
+main {
+     flex: 7;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+}
+
+section {
+     width: 45%;
+     margin: 5px;
+     background-color: black;
+     position: relative;
+     height: 340px;
+}
+
+section img {
+     width: 100%;
+     display: block;
+     position: absolute;
+     bottom: 0px;
+     height: 340px;
+}
+
+section container {
+     background-color: gray;
+     opacity: 0.5;
+     width: 100%;
+     display: block;
+     position: absolute;
+     bottom: 0px;
+     height: 340px;
+}
+
+aside div { margin-bottom: 20px; }
+
+button {
+     background: black;
+     color: yellow;
+     padding: 5px 0;
+     border: none;
+     border-radius: 10px;
+     box-shadow: inset 1px 1px 2px white, inset -1px -1px 2px #ccc;
+}
+
+a  { color: black;
+     text-decoration: none; }
+
+hr { height: 3px; border: 0; background-color: black; }
+
+.redirect { background-color: #d3d3d3; }
+
+.current { font-weight:bold; border-top: 1px solid red; border-bottom: 1px solid red; }
+
+.notification { color: green; }
+
+.mybutton { font-weight: bold; border: thin; padding: 5px; margin: 1px; width: 100px; height: 44px; }
+
+.green { background-color: greenyellow; }
+
+.red { background-color: tomato; }
